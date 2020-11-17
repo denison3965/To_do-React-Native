@@ -22,6 +22,7 @@ export default function App(){
       </View>
 
       <FlatList 
+      marginHorizontal={10}
       showsHorizontalScrollIndicator={false}
       data={task}
       keyExtractor={ (item) => String(item.key) }
